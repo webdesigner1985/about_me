@@ -34,9 +34,23 @@
   background-color: hsla(350, 85%, 58%, 0.19);
 }
 
-
-
 .aboutme {
-  width: 680px;
+  width: 550px;
   max-width: calc(100vw - 10px);
 }
+ body {
+   display: flex;
+   height: 100vh; /*böngészőablak magassága*/
+   justify-content: center;
+   align-items: center;
+ }
+
+ img {
+   width: 550px;
+   height: 480px;
+   border-radius: 10%;
+ }
+
+ .headline {
+   text-align: center;
+ }
